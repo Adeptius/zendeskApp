@@ -1,0 +1,18 @@
+{
+  "name": "Nextel",
+  "author": {
+    "name": "Nextel cloud",
+    "email": "support@nextel.cloud",
+    "url": "https://nextel.cloud/"
+  },
+  "defaultLocale": "ru",
+  "private": false,
+  "location": {
+    "support": {
+      "top_bar": "https://my.nextel.com.ua/zendesk_widget/top_bar.html",
+      "background": "https://my.nextel.com.ua/zendesk_widget/background.html"
+    }
+  },
+  "version": "1.0",
+  "frameworkVersion": "2.0"
+}

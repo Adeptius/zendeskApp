@@ -1,0 +1,250 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+.clearfix:after { /*Используется для того что бы зачистить границы. Более правильный метод*/
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+header{
+    background-color: #e33351;
+    position: fixed;
+    width: 100%;
+}
+.nextel_notif_pic{
+    padding: 10px;
+    padding-left: 15px;
+
+}
+.nextel_close-notif-button {
+    padding: 10px;
+    cursor: pointer;
+}
+.nextel_notif_pic > img {
+    margin-top: 8px;
+    width: 50px;
+    height: 50px;
+
+}
+.nextel_notif_header_info{
+    background-color: #30323e;
+    margin: 0 0 0 80px;
+    color: #fff;
+    padding: 10px;
+}
+
+.nextel_notif-contact-name.withLink {
+    color: #2a8be1;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nextel_notif_caller_number{
+    color: #fff;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.nextel_notif_dial_status{
+    color: #bbbbbb;
+    font-size: 18px;
+}
+
+.content{
+    background-color: #edf1f5;
+    height: 100%;
+    padding-top: 110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.nextel_notif-user-avatar{
+    width: 50px;
+    height: 50px;
+}
+
+.nextel_notif-contact-owner{
+    color: #5d5d5d;
+    font-size: 14px;
+}
+
+.nextel_notif-link-to-deal{
+    color: #2a8be1;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nextel_notif-ticket-details{
+    margin-top: 15px;
+}
+.nextel_notif-ticket-name{
+    color: #2a8be1;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    /*line-height: 25px;*/
+    text-align: center;
+    text-decoration: underline;
+}
+
+.nextel_notif-ticket-details-table > div{
+    margin-top: 10px;
+}
+
+.nextel_notif-ticket-details-table > div >span:first-child{
+    width: 110px;
+    color: #7e7e7e;
+    float: left;
+}
+
+.nextel_notif-ticket-details-table > div >span:last-child{
+    float: left;
+}
+
+.nextel_notif-analytics-details{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.nextel_notif-analytics-details > div {
+    display: flex;
+}
+
+.nextel_notif-analytics-details > div > div:first-child {
+    width: 100px;
+    color: #7e7e7e;
+}
+
+.primary-rounded-content-block {
+    background-color: #fff;
+    padding: 10px;
+    color: #12171d;
+    -webkit-box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.4);
+}
+
+.nextel_notif-dialer-name{
+    text-align: center;
+}
+
+.nextel_notif-dialer-number-input{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    color: #68737d;
+    border: none;
+    text-align: center;
+    padding: 5px;
+}
+
+.nextel_notif-dialer-number-input:focus {
+    outline-width: 0;
+}
+
+.nextel_notif-dialer-numbers{
+    margin-top: 15px;
+}
+
+td {
+
+}
+table{
+
+}
+td{
+    width: 33.3%;
+    color: #fff;
+    vertical-align: center;
+    text-align: center;
+    height: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #68737d;
+    -webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
+    transition: background-color 0.2s ease-out;
+}
+
+td:hover{
+    background-color: #7e8993;
+}
+
+.nextel_notif-error-info {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nextel_notif-error-description {
+    font-weight: 500;
+}
+
+.nextel_notif-error-link {
+    margin-top: 15px;
+}
+
+.nextel_notif-error-ok-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #00c907;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.nextel_notif-call-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nextel_notif-call-info-header {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nextel_notif-call-info-header-description {
+    margin-left: 20px;
+}
+
+.nextel_notif-user-info {
+    display: flex;
+    align-items: center;
+}
+
+.nextel_notif-contact-notes-div {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.nextel_notif-ticket-description {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+

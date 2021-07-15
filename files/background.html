@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<script type="text/javascript" src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
+<script>
+    let client = ZAFClient.init();
+    client.get('instances').then(function (instancesData) {
+        const instances = instancesData.instances;
+        for (const instanceGuid in instances) {
+            if (instances[instanceGuid].location === 'top_bar') {
+                return client.instance(instanceGuid);
+            }
+        }
+    }).then(function(topBarClient) {
+        topBarClient.invoke('preloadPane');
+    });
+</script>
+<body></body>
+</html>

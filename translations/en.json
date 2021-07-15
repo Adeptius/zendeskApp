@@ -1,0 +1,8 @@
+{
+  "app": {
+    "long_description": "Auto creating users and tickets",
+    "installation_instructions": "Go to Nextel personal -> Integrations -> Zendesk, input your zendesk domain and press \"Connect\"",
+    "short_description": "IP Telephony service",
+    "name": "Nextel cloud"
+  }
+}
